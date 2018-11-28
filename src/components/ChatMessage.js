@@ -9,8 +9,7 @@ const ChatMessage = (props) => {
   const timeStamp = props.timeStamp;
 
 
-const name = props.sender==="Estragon"  ? "chat-entry remote": "chat-entry local";
-console.log(name);
+const name = props.sender==="Estragon" ? "chat-entry remote": "chat-entry local";
 
   return (
     <section className= {name}>
